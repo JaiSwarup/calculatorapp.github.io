@@ -32,7 +32,7 @@ function handleSymbol(symbol) {
                 if (buffer.length === 1) {
                     buffer = '0';
                 }else {
-                    buffer = buffer.silce(0, buffer.length-1);
+                    buffer = buffer.slice(0, buffer.length-1);
                 }
                 break;
             case '+':
